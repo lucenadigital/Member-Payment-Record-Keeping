@@ -2,7 +2,7 @@
 /**
  * Plugin Name:       Member Contribution
  * Plugin URI:        http://www.michaelcastrillo.com
- * Description:       Just Insert Data into Custom Form
+ * Description:       Store and record payment of individual member.
  * Version:           1.0
  * Author:            Lucena Digital Space
  * Author URI:        http://www.michaelcastrillo.com
