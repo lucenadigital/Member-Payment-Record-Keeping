@@ -10,14 +10,12 @@
 function mrks_scripts() {
 	wp_deregister_script('jquery');
 	wp_enqueue_script('jquery', '//code.jquery.com/jquery-1.12.4.js');
-}
-function load_jquery_ui() {
 	wp_enqueue_script('jqueryui', '//code.jquery.com/ui/1.12.1/jquery-ui.js');
 	wp_enqueue_style('jqueryuistyle', '//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css');
 }
 
+
 add_action( 'wp_enqueue_scripts', 'mrks_scripts',10 );
-add_action( 'wp_enqueue_scripts', 'load_jquery_ui',12 );
 
  if (isset($_POST['submit'])) {
 	 $submitpayment = $_POST['submit'];
